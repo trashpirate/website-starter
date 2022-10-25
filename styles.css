@@ -1,0 +1,96 @@
+/* global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+section {
+  height: auto;
+  padding: 50px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* CLASS STYLES */
+/* -------------*/
+
+/* Navigation bar */
+.navbar {
+  height: 80px;
+
+  background-color: #000;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.navbar .nav-logo {
+  margin: auto 30px;
+
+  text-decoration: none;
+
+  vertical-align: middle;
+}
+
+.navbar-menu {
+  /* height: 80px; */
+  display: flex;
+}
+
+.navbar .nav-links {
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .nav-links > a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar .nav-links a:hover {
+  color: rgb(0, 255, 170);
+}
+
+/* Section */
+.section-1 {
+  height: 100vh;
+  padding: 0px 20px 0px 20px;
+
+  background-color: white;
+  color: rgb(0, 0, 0);
+
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  height: auto;
+  padding: 20px;
+
+  color: white;
+  background-color: #000;
+
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .website-rights {
+  padding-top: 10px;
+}
